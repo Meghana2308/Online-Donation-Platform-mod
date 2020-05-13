@@ -1,0 +1,24 @@
+
+server:
+     port: 8081
+spring:
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/OnlineDonation?useSSL=false
+    username: root
+    password: meghana
+    
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        
+        
+        driverClassName: com.mysql.cj.jdbc.Driver
+    dialect: org.hibernate.dialect.MySQL8Dialect
