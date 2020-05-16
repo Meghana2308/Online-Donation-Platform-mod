@@ -30,7 +30,7 @@ public class DonationController {
 		
 		@ApiOperation(value="Post all user",
 		produces="A list of user",
-		notes="Hit this URL to get all user"
+		notes="Hit this URL to get all user"   
 		)
 		
 		  @PostMapping("/donation")
